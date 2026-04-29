@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h2>Enfield Dev</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="trainees.html">Trainees</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="courses.html">Courses</a>
+        <a href="apply.html">Apply</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Apply Now</h2>
+    <p>Complete the form below to apply for a trainee web developer role.</p>
+
+    <form id="applicationForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="email" id="email" placeholder="Email Address" required>
+
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <input type="text" id="qualification" placeholder="Highest Qualification" required>
+
+        <select id="experience" required>
+            <option value="">Years of Experience</option>
+            <option>0-1 Years</option>
+            <option>1-2 Years</option>
+            <option>2-3 Years</option>
+            <option>3+ Years</option>
+        </select>
+
+        <textarea id="skills" placeholder="List your web development skills..." required></textarea>
+
+        <textarea id="motivation" placeholder="Why do you want to join Enfield Dev?" required></textarea>
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>© 2026 Enfield Dev Ltd</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
